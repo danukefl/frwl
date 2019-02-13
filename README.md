@@ -11,6 +11,6 @@ I have included my dockerfile for anyone to modify to their tastes as it current
 
 docker run -d \
   --name frwl \
-  -v <local volume>:/from_russia_with_love_comp \
-  -e ServerIP=<Ru Server IP/Host> \
+  -v "localvolume":/from_russia_with_love_comp \
+  -e ServerIP="IP/Host" \
   danukefl/frwl
