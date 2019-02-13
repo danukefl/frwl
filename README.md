@@ -1,5 +1,8 @@
-# frwl
+frwl
+===
+
 From Russia With Love Content
+---
 
 https://hub.docker.com/r/danuke/frwl
 
@@ -8,8 +11,11 @@ Contents of this repository are my contributions to the From Russia With Love pr
 https://github.com/LogoiLab/frwl
 https://www.reddit.com/r/DataHoarder/comments/apsd7v/with_russia_going_offline_for_a_test_some_time/
 
-I have included my dockerfile and modified ping_russia_docker.sh script for anyone to modify to their tastes as it current running off the debian base iamge, or to build and run for themselves to help in contributing.
+I have included my dockerfile and modified ping_russia_docker.sh script for anyone to modify to their tastes as it current running off the debian base image, or to build and run for themselves to help in contributing.
 
+
+Command
+---
 
 docker run -d \
   --name frwl \
